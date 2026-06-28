@@ -21,7 +21,6 @@ A Computational Fluid Dynamics (CFD) study investigating the aerodynamic impact 
 <p align="center">
 <img src="https://img.shields.io/github/stars/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
 <img src="https://img.shields.io/github/forks/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
-<img src="https://img.shields.io/github/license/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
 </p>
 
