@@ -541,9 +541,8 @@ tesla-model-s-spoiler-cfd-analysis
 
 A detailed engineering report is included in the repository, documenting the complete workflow from CAD preparation through CFD simulation and aerodynamic analysis.
 
-```text
-docs/Impact_of_Rear_Spoilers_CFD_Report.pdf
-```
+**[`docs/Impact_of_Rear_Spoilers_CFD_Report.pdf`](docs/Impact_of_Rear_Spoilers_CFD_Report.pdf)**.
+
 
 The report includes:
 
