@@ -11,9 +11,11 @@ A Computational Fluid Dynamics (CFD) study investigating the aerodynamic impact 
 <p align="center">
 
 <img src="https://img.shields.io/badge/ANSYS-Fluent-FFB71B?style=for-the-badge&logo=ansys&logoColor=black">
+<img src="https://img.shields.io/badge/ANSYS-SpaceClaim-FFB71B?style=for-the-badge&logo=ansys&logoColor=black">
 <img src="https://img.shields.io/badge/CFD-Simulation-1E88E5?style=for-the-badge">
 <img src="https://img.shields.io/badge/Aerodynamics-Automotive-263238?style=for-the-badge">
 <img src="https://img.shields.io/badge/SolidWorks-CAD-D32F2F?style=for-the-badge">
+<img src="https://img.shields.io/badge/Autodesk%20Inventor-E34F26?style=for-the-badge&logo=autodesk&logoColor=white">
 <img src="https://img.shields.io/badge/Engineering-Research-00695C?style=for-the-badge">
 
 </p>
@@ -21,6 +23,7 @@ A Computational Fluid Dynamics (CFD) study investigating the aerodynamic impact 
 <p align="center">
 <img src="https://img.shields.io/github/stars/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
 <img src="https://img.shields.io/github/forks/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
+<img src="https://img.shields.io/github/license/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
 <img src="https://img.shields.io/github/last-commit/MohamedSamer1/tesla-model-s-spoiler-cfd-analysis?style=for-the-badge">
 </p>
 
@@ -95,7 +98,7 @@ The primary objective of this study was to evaluate the aerodynamic effects of a
 
 | Category | Details |
 |---|---|
-| **Software** | ANSYS Fluent, ANSYS Meshing, SolidWorks |
+| **Software** | ANSYS Fluent, ANSYS Meshing, ANSYS SpaceClaim, SolidWorks, Autodesk Inventor |
 | **Analysis Type** | External Aerodynamics, Steady-State CFD |
 | **Vehicle** | Tesla Model S |
 | **Configurations** | Without Rear Spoiler / With Rear Spoiler |
@@ -144,7 +147,7 @@ Both models were subjected to identical simulation conditions to ensure that any
 
 Before performing the CFD analysis, two separate vehicle geometries were prepared to ensure a controlled comparison of the aerodynamic effects of a rear spoiler.
 
-The first model represents the **baseline Tesla Model S**, while the second incorporates a **rear spoiler** mounted on the trunk lid. Both models share identical overall dimensions, allowing any differences in aerodynamic performance to be attributed solely to the spoiler. The CAD models were prepared using **SolidWorks** and exported in a format compatible with the ANSYS simulation workflow.
+The first model represents the **baseline Tesla Model S**, while the second incorporates a **rear spoiler** mounted on the trunk lid. Both models share identical overall dimensions, allowing any differences in aerodynamic performance to be attributed solely to the spoiler. The CAD models were prepared using **SolidWorks** and **Autodesk Inventor**, with **ANSYS SpaceClaim** used for geometry cleanup and preparation, then exported in a format compatible with the ANSYS simulation workflow.
 
 ### Baseline Model
 
@@ -564,8 +567,8 @@ The report includes:
 
 | Category | Software |
 |----------|----------|
-| CAD Modeling | SolidWorks |
-| CFD Pre-processing | ANSYS SpaceClaim |
+| CAD Modeling | SolidWorks, Autodesk Inventor |
+| CFD Pre-processing / Geometry Cleanup | ANSYS SpaceClaim |
 | Meshing | ANSYS Meshing |
 | CFD Solver | ANSYS Fluent |
 | Documentation | Microsoft Word |
@@ -576,7 +579,9 @@ The report includes:
 
 - ANSYS Fluent Documentation
 - ANSYS Meshing Documentation
+- ANSYS SpaceClaim Documentation
 - SolidWorks Documentation
+- Autodesk Inventor Documentation
 - Fundamentals of Vehicle Aerodynamics
 - Computational Fluid Dynamics course materials
 - Automotive engineering literature
