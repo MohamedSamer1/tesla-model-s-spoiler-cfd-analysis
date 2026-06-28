@@ -1,0 +1,38 @@
+# encoding: utf-8
+# 2025 R2
+SetScriptVersion(Version="25.2.172")
+Save(Overwrite=True)
+system1 = GetSystem(Name="FFF")
+system1.Delete()
+system2 = GetSystem(Name="Geom")
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+system3 = GetSystem(Name="FFF 2")
+system3.Delete()
+template1 = GetTemplate(TemplateName="Geometry")
+system4 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system2)
+system4.DisplayText = "Geometry Spoiler"
+template2 = GetTemplate(TemplateName="Fluid Flow with Fluent Meshing")
+geometryComponent1 = system4.GetComponent(Name="Geometry")
+system5 = template2.CreateSystem(
+    ComponentsToShare=[geometryComponent1],
+    Position="Right",
+    RelativeTo=system4)
+geometry2 = system4.GetContainer(ComponentName="Geometry")
+geometry2.SetFile(FilePath="C:/Users/moham/Downloads/Tesla_base.stp")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry2.Exit()
+geometry2.SetFile(FilePath="C:/Users/moham/Downloads/Tesla_base.stp")
+geometry2.SetFile(FilePath="C:/Users/moham/Downloads/Fluid Project/Tesla_base - Spoiler.scdocx")
+geometry2.Edit(IsSpaceClaimGeometry=True)
+Save(Overwrite=True)
+geometry2.Exit()
+geometry2.Edit(IsSpaceClaimGeometry=True)
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+geometry2.Exit()

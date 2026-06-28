@@ -1,0 +1,47 @@
+Transcript Start Time:  17:13:47, 17 Apr 2026 Arab Standard Time 
+Current Directory: "C:\Users\moham\Downloads\Fluid Project"
+
+Build Time: Oct  7 2025 15:34:38 EDT 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v252/fluent/ntbin/win64/fluent.exe
+
+-----------------------------------------------------------------------------------
+ID    Hostname  Core  O.S.         PID    Vendor                                  
+-----------------------------------------------------------------------------------
+n0*   Mohamed   1/16  Windows-x64  19096  13th Gen Intel(R) Core(TM) i7-13620H    
+host  Mohamed         Windows-x64  2784   13th Gen Intel(R) Core(TM) i7-13620H    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-----------------------------------------------------------------------------------
+
+Cortex Process ID: 23612 
+License Server Path: () 
+Reading "C:\Users\moham\Downloads\Fluid Project\copy save_files\dp0\FFF-1\Fluent\FFF 1.2.msh.h5" ...
+3D mesh
+nodes: 393466
+edges: 911
+faces: 488839 
+cells: 84934 
+reading 7 node zones
+reading 15 edge zones
+reading 7 face zones
+reading 1 cell zones
+reading boundary layer flags...
+updating sub-domains...
+done.
+generating pointers...done.
+extracting boundary entities...
+ 52086 boundary nodes.
+ 15190 boundary faces.
+ 6 boundary face zones.
+done.
+generating cells...done.
+analyzing boundary connectivity...done.
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v252\fluent\fluent25.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+Writing "C:\Users\moham\Downloads\Fluid Project\copy save_files\dp0\FFF-1\Fluent\FFF 1.2.msh.h5" ...
+writing 0 node zones
+writing 0 edge zones 
+writing 0 face zones 
+done.Transcript Stop Time:  17:13:52, 17 Apr 2026 Arab Standard Time 
+Total Transcript Time: 0 Minute 5 Second.
