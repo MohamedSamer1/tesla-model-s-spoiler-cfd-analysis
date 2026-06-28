@@ -758,19 +758,7 @@ This project was developed using engineering principles and resources including:
 
 ---
 
-# 👥 Team
 
-This project was completed as part of the **Mechatronics Engineering** program at **Modern Sciences and Arts University (MSA University)**.
-
-**Team Members**
-
-- Mohamed Samer
-- Ahmed Ibrahim
-- Ahmed Hesham
-- Omar Mahmoud
-- Youssef Mohamed
-
----
 
 # 📄 License
 
